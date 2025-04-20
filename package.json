@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "feliz": "node felicidad.js",
+    "motivacion": "cls && node felicidad.js && echo Hecho!"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,12 @@
     "url": "https://github.com/fabianfernandez/pruebas_npm/issues"
   },
   "homepage": "https://github.com/fabianfernandez/pruebas_npm#readme",
-  "description": ""
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }
